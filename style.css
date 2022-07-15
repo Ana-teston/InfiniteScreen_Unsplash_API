@@ -34,3 +34,24 @@ h1 {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+/* Image container */
+.image-container {
+  margin: 10px 20%;
+}
+
+.image-container img {
+  width: 100%;
+  margin-top: 5px;
+}
+
+/* Media query: Large smatphone */
+@media screen and (max-width: 600px) {
+  h1{
+    font-size: 20px;
+  }
+
+  .image-container {
+    margin: 10px;
+  }
+}
